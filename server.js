@@ -10,14 +10,14 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-  res.sendFile('Article one you will get');
+  res.send('Article one you will get');
 });
 
 app.get('/article-two', function (req, res) {
-  res.sendFile('Article two you will get');
+  res.send('Article two you will get');
 });
 app.get('/article-three', function (req, res) {
-  res.sendFile('Article three you will get');
+  res.send('Article three you will get');
 });
 
 app.get('/ui/style.css', function (req, res) {
